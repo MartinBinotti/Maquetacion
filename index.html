@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+      <title>Prueba de Maquetacion</title>
+      <link rel="stylesheet" href="app.css" type="text/css" media="all">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h2 id="titulo-app-gatos">APP de Gatos</h2>
+    <main>
+      <h3>Imagenes de gatos:</h3>
+
+      <p>Hace click para ver <a href="#" target="_blank" rel="noopener noreferrer"></a>imagenes de gatos</a></p>
+
+      <a href="#p1">Parrafo 1</a>
+      <a href="#p2">Parrafo 2</a>
+      <a href="#p3">Parrafo 3</a>
+      <a href="#p4">Parrafo 4</a>
+
+      <a href="imagenes/gato1.jpg" rel="noopener noreferrer" target="_blank"><img src="imagenes/gato1.jpg" alt="Imagen de gato bebe" class="imagen-de-gato1"></a>
+      <a href="imagenes/gato2.jpg" rel="noopener noreferrer" target="_blank"><img src="imagenes/gato2.jpg" alt="Imagen de gato bebe"></a>
+      <a href="imagenes/gato3.jpg" rel="noopener noreferrer" target="_blank"><img src="imagenes/gato3.jpg" alt="Imagen de gato bebe"></a>
+
+      <hr>
+
+      <h3>Listas de gatos</h3>
+
+      <div>
+        <p>Cosas que <em>aman</em> los gatos</p>
+        <ul>
+          <li>Comer</li>
+          <li>Dormir</li>
+          <li>Jugar</li>
+          <li><s>Lasaña</s></li>
+        </ul>
+
+        <p>Cosas que los gatos <strong>odian</strong></p>
+        <ol>
+          <li>Ruidos fuertes</li>
+          <li>Mojarse</li>
+          <li>Secador de pelo</li>
+        </ol>
+    </div>
+
+      <hr>
+
+      <h3 id="p1">Parrafo 1</h3>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <hr>
+
+      <h3 id="p2">Parrafo 2</h3>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <hr>
+
+      <h3 id="p3">Parrafo 3</h3>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <hr>
+
+      <h3 id="p4">Parrafo 4</h3>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <form action="/enviar-respuesta">
+        <!-- Botones de radio -->
+        <label for="interior"><input type="radio" value="interior" id="interior" name="interior-exterior" checked>Interior</label><br>
+
+        <label for="exterior">
+          <input type="radio" value="exterior" id="exterior" name="interior-exterior">Exterior
+        </label><br>
+
+        <!-- Casillas de verificacion -->
+        <label for="perezoso">
+          <input id="perezoso" value="perezoso"
+          type="checkbox">Perezoso
+        </label>
+
+        <label for="carinoso">
+          <input id="carinoso" value="carinoso" type="checkbox" checked>Cariñoso
+        </label>
+
+        <label for="agresivo">
+          <input id="agresivo" value="agresivo" type="checkbox">Agresivo
+        </label>
+        <br>
+
+        <!-- Texto y Boton enviar -->
+        <input type="text" placeholder="Ingrese su nombre" required><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p><small>derechos de autor</small></p>
+    </footer>
+
+  </body>
+</html>

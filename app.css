@@ -1,0 +1,26 @@
+p, ul, ol {
+    font-size: 20px;
+}
+
+li{
+    color: rgb(231, 17, 17);
+    font-size: 15px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+  width: 200px;
+}
+
+.imagen-de-gato1 {
+  width: 300px;
+}
+
+#titulo-app-gatos {
+  color: rgb(14, 199, 69);
+  font-size: 30px;
+}
